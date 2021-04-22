@@ -16,7 +16,7 @@ export const LoginScreen = ({ history }) => {
             <div className="card-body">
               <p>Welcome!, Lorem ipsum dolor sit amet.</p>
               <button className="btn btn-primary" onClick={handleLogin}>
-                Login
+                <i className="fas fa-sign-in-alt"></i> Login
               </button>
             </div>
           </div>

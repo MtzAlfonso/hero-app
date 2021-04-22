@@ -4,14 +4,13 @@ import { Link } from 'react-router-dom';
 export const HeroCard = ({
   id,
   superhero,
-  publisher,
   alter_ego,
   first_appearance,
   characters,
 }) => {
   return (
     <div className="col mb-4">
-      <div className="card border-0 bg-light">
+      <div className="card border-0 bg-light animate__animated animate__fadeIn">
         <div className="row no-gutters">
           <div className="col-12 col-lg-4">
             <img
@@ -34,7 +33,7 @@ export const HeroCard = ({
               )}
               <Link
                 to={`./hero/${id}`}
-                className="btn btn-outline-primary px-4 btn-sm mt-5"
+                className="btn btn-outline-secondary px-4 btn-sm mt-5"
               >
                 More
               </Link>
